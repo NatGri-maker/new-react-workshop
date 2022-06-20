@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 import PostsTable from "./posts-workshop/PostsTable";
-
-
+import PostsForm from "./posts-workshop/PostsForm";
+import Header from "./posts-workshop/Header";
+import Footer from "./posts-workshop/Footer";
 function App() {
-  return (
-    <div className="App">
-      <>
-      <PostsTable/>
-      </>
-    </div>
-  );
+    return (
+        <>
+            <Header/>
+            <PostsForm/>
+            <PostsTable/>
+             <Footer/>
+        </>
+    );
 }
 
 export default App;
